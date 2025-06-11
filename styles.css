@@ -1,0 +1,107 @@
+body {
+  background: #f3e5d7;
+  display: flex;
+  justify-content: center;
+  font-family: "Outfit", sans-serif;
+}
+
+#recipe-container {
+  background-color: #fff;
+  width: 736px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 40px 40px 40px 40px;
+}
+
+img {
+  height: 300px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #312e2c;
+
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.image-conatiner > p {
+  color: #5f564d;
+}
+
+hr {
+  width: 656px;
+  height: 1px;
+  background-color: #e3ddd7;
+}
+
+.prep {
+  background-color: #fff7fb;
+  padding: 24px 24px 24px 24px;
+}
+
+.prep > p {
+  font-weight: 600;
+  color: #7a284e;
+}
+
+.ingr {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+h2 {
+  color: #854632;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.Ingredients,
+p {
+  color: #5f564d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+span {
+  color: #5f564d;
+  font-weight: 700;
+}
+
+.num {
+  color: #854632;
+  font-weight: 700;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nutr1,
+.nutr2,
+.nutr3,
+.nutr4 {
+  display: flex;
+  align-items: center;
+}
+
+.nutr1 {
+  gap: 280px;
+}
+
+.nutr2 {
+  gap: 298px;
+}
+
+.nutr3 {
+  gap: 290px;
+}
+
+.nutr4 {
+  gap: 317px;
+}
